@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#users {
+    padding: 50px 400px;
+};
+
+#users h2 {
+    margin-bottom: 20px;
+}
+
+#users ul {
+    
+}
+
+#users ul li {
+    /* width: 300px; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#users ul li img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#users ul li div.content {
+    margin-left: 40px;
+}
+
+#users ul li div.content h3 {
+    color: rgba(0, 0, 0, 0.589);
+}
+
+#users ul li div.content a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.589);
+}
