@@ -1,7 +1,7 @@
-//2. Array index
-let students = ["Tom","Jerry","MR Beem","Chotabeem"];
-console.log(students[3]);
+//7. Concating Arrays
+let students = ["Tom","Jerry","MR Beem"];
+let students_2 = ["Chotabeem","Mottu","Pattlu"];
+let students_3 = ["Hunny","Laly","Choocha"];
 
-students[4] = "Mottu";
-students[5] = "Pattlu"
-console.log(students);
+let all_sudents = students.concat(students_2,students_3); // Add multiple arrays in one array
+console.log(all_sudents);
